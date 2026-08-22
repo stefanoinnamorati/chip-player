@@ -1,0 +1,15 @@
+.git
+.gitignore
+.gitattributes
+.distignore
+.DS_Store
+Thumbs.db
+.idea
+.vscode
+*.log
+node_modules
+vendor
+.env
+.env.*
+README.md
+.cursor

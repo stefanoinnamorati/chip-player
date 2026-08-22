@@ -332,9 +332,6 @@
   }
 
   var hash = (location.hash || "").replace("#", "");
-  if (hash === "sulle-route") {
-    hash = "sulle-ruote";
-  }
   if (hash && songs.some(function (s) { return s.id === hash; })) {
     chooseSong(hash);
   } else if (hash && tracks.some(function (t) { return t.id === hash; })) {

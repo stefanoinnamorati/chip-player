@@ -1,8 +1,8 @@
 === Chip Player ===
-Contributors: stefanoinnamorati
+Contributors: sinnamorati
 Tags: audio, music, player, playlist, mp3
 Requires at least: 6.2
-Tested up to: 6.8
+Tested up to: 7.1
 Requires PHP: 7.4
 Stable tag: 1.0.0
 License: GPLv2 or later
@@ -45,7 +45,7 @@ Filterable identifiers:
 * `chip_player_version_taxonomy`
 * `chip_player_use_legacy`
 
-Existing Pescara Pattini tracks (`pepa_track`) keep working automatically.
+Existing installs that already use `pepa_track` keep working automatically.
 
 == Installation ==
 
@@ -55,13 +55,13 @@ Existing Pescara Pattini tracks (`pepa_track`) keep working automatically.
 
 == Frequently Asked Questions ==
 
-= Does it replace Sonaar or other playlist plugins? =
+= Does it replace other playlist plugins? =
 
-It replaces a multi-player playlist with one player and chips. It does not import Sonaar playlists.
+It replaces a list of separate players with one player and chips. It does not import playlists from other plugins.
 
 = Will it work on WordPress.com? =
 
-On WordPress.com, it can be uploaded on Business / Commerce plans that allow custom plugins. It is also prepared for wordpress.org.
+On WordPress.com, custom plugins can be uploaded on plans that allow them, such as Business or Commerce.
 
 = Can I translate the interface? =
 

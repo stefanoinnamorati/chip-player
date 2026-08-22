@@ -124,12 +124,19 @@ function chip_player_catalog() {
 	);
 }
 
-function chip_player_content_has( $needle ) {
-	if ( is_singular() ) {
-		$post = get_post();
-		if ( $post && str_contains( (string) $post->post_content, $needle ) ) {
-			return true;
-		}
+function chip_player_should_enqueue() {
+	if ( ! is_singular() ) {
+		return false;
 	}
-	return false;
+
+	$post = get_post();
+	if ( ! $post ) {
+		return false;
+	}
+
+	$content = (string) $post->post_content;
+
+	return has_shortcode( $content, 'chip_player' )
+		|| has_shortcode( $content, 'pepa_sound' )
+		|| has_block( 'chip-player/player', $post );
 }

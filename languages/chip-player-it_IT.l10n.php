@@ -1,4 +1,8 @@
 <?php
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
 return array(
 	'project-id-version' => 'Chip Player',
 	'language'           => 'it_IT',

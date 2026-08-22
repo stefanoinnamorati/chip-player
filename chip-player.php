@@ -1,12 +1,14 @@
 <?php
 /**
  * Plugin Name:       Chip Player
- * Plugin URI:        https://wordpress.org/plugins/chip-player/
+ * Plugin URI:        https://github.com/stefanoinnamorati/chip-player
  * Description:       One cover, one player, and chips for songs, languages, and versions. Manage tracks from WordPress.
  * Version:           1.0.0
  * Requires at least: 6.2
+ * Tested up to:      7.1
  * Requires PHP:      7.4
  * Author:            Stefano Innamorati
+ * Author URI:        https://profiles.wordpress.org/sinnamorati/
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       chip-player

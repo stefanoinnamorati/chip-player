@@ -26,12 +26,7 @@ function chip_player_assets() {
 		true
 	);
 
-	$should = chip_player_content_has( '[chip_player]' )
-		|| chip_player_content_has( '[pepa_sound]' )
-		|| chip_player_content_has( 'chip-player/player' )
-		|| is_page( 'pescara-pattini-sound' );
-
-	if ( $should ) {
+	if ( chip_player_should_enqueue() ) {
 		wp_enqueue_style( 'chip-player' );
 		wp_enqueue_script( 'chip-player' );
 	}

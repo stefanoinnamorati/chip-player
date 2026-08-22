@@ -27,12 +27,9 @@ PHP 7.4+, WordPress 6.2+. No build step.
 
 ## WordPress.org
 
-`readme.txt` follows the plugin directory format. Before submitting:
+The WordPress.org contributor account is `sinnamorati`. `readme.txt` follows the plugin directory format.
 
-- Confirm the slug `chip-player` is free
-- Add `assets/` banners and icons in the plugin directory SVN (not this repo)
-- Run the Plugin Check plugin
-- Keep the license GPL-2.0-or-later
+Submit a zip of the plugin folder (not this Git working copy). Exclude `.git`, `.gitignore`, and this `README.md`. After approval, add banners and icons in the plugin directory SVN `assets/` folder, not in this repository.
 
 ## License
 
