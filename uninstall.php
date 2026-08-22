@@ -9,6 +9,7 @@ if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) {
 }
 
 delete_option( 'chip_player_cover' );
+delete_site_transient( 'chip_player_github_release' );
 
 if ( defined( 'CHIP_PLAYER_DELETE_DATA' ) && CHIP_PLAYER_DELETE_DATA ) {
 	delete_option( 'chip_player_legacy' );

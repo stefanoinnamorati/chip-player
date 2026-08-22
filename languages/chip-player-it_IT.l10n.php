@@ -66,5 +66,8 @@ return array(
 		'Choose audio file' => 'Scegli il file audio',
 		'Use this file' => 'Usa questo file',
 		'Choose cover image' => 'Scegli la copertina',
+		'See the GitHub release page for details.' => 'Dettagli nella pagina della release su GitHub.',
+		'One cover, one player, and chips for songs, languages, and versions.' => 'Una copertina, un lettore e chip per brani, lingue e versioni.',
+		'Chip Player could not rename the GitHub download folder.' => 'Chip Player non è riuscito a rinominare la cartella scaricata da GitHub.',
 	),
 );

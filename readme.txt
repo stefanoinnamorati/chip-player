@@ -4,7 +4,7 @@ Tags: audio, music, player, playlist, mp3
 Requires at least: 6.2
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -67,12 +67,22 @@ On WordPress.com, custom plugins can be uploaded on plans that allow them, such 
 
 Yes. The text domain is `chip-player`.
 
+= How do plugin updates work? =
+
+Until Chip Player is listed on WordPress.org, updates come from GitHub Releases. Enable automatic updates from the Plugins screen. The host must allow outbound HTTPS (on Altervista: Server to server).
+
 == Changelog ==
+
+= 1.0.1 =
+* GitHub Releases updater and automatic updates.
 
 = 1.0.0 =
 * First public release: CPT, chips, HTML5 player, dock, shortcode, and block.
 
 == Upgrade Notice ==
+
+= 1.0.1 =
+Adds GitHub updates so the plugin can update itself.
 
 = 1.0.0 =
 Initial release.

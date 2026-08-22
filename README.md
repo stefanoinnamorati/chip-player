@@ -25,6 +25,18 @@ assets/js/admin.js
 
 PHP 7.4+, WordPress 6.2+. No build step.
 
+## Updates
+
+Until the plugin is on WordPress.org, WordPress checks [GitHub Releases](https://github.com/stefanoinnamorati/chip-player/releases). Tag a version (`1.0.2`) that matches the plugin header, push, and publish a release. The host must allow outbound HTTPS.
+
+Optional in `wp-config.php` if GitHub rate-limits the server:
+
+```php
+define( 'CHIP_PLAYER_GITHUB_TOKEN', 'ghp_…' );
+```
+
+Set `CHIP_PLAYER_DISABLE_GITHUB_UPDATES` to true if WordPress.org should be the only update source.
+
 ## WordPress.org
 
 The WordPress.org contributor account is `sinnamorati`. `readme.txt` follows the plugin directory format.
